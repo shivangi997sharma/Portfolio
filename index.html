@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shivangi Sharma | Data Engineer & AI Specialist</title>
+    <title>Shivangi Sharma | Data Engineer & M&A Data Integration Specialist</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -32,18 +32,19 @@
         }
 
         .skill-tag {
-            transition: all 0.3s ease;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .skill-tag:hover {
             background-color: #3b82f6;
             color: white;
             transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
         }
 
         .profile-blob {
             border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-            background: linear-gradient(45deg, #3b82f6, #10b981);
+            background: linear-gradient(45deg, #3b82f6, #10b981, #6366f1);
             animation: morph 8s ease-in-out infinite;
         }
 
@@ -74,8 +75,8 @@
     <!-- Navigation -->
     <nav id="navbar" class="fixed top-0 w-full z-50 transition-all duration-300 py-6">
         <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
-                SS.
+            <a href="#" class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent tracking-wider">
+                SS<span class="text-emerald-400">.</span>
             </a>
             <div class="hidden md:flex items-center space-x-8">
                 <a href="#home" class="text-sm font-medium hover:text-blue-400 transition-colors">Home</a>
@@ -86,42 +87,44 @@
             </div>
             <div class="flex items-center space-x-5">
                 <a href="https://www.linkedin.com/in/newss11" target="_blank" class="text-slate-400 hover:text-blue-400 transition-colors" title="LinkedIn">
-                    <i class="fab fa-linkedin text-xl"></i>
+                    <i class="fab fa-linkedin text-2xl"></i>
                 </a>
                 <a href="mailto:shivangi997sharma@gmail.com" class="text-slate-400 hover:text-white transition-colors" title="Contact Me">
-                    <i class="fas fa-envelope text-lg"></i>
+                    <i class="fas fa-envelope text-xl"></i>
                 </a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <header id="home" class="pt-40 pb-20 px-6">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+    <header id="home" class="pt-40 pb-20 px-6 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(59,130,246,0.15),rgba(255,255,255,0))] pointer-events-none"></div>
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 relative z-10">
             <div class="flex-1">
-                <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm mb-6">
-                    <span class="relative flex h-2 w-2">
-                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-                        <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm mb-6 font-medium shadow-sm">
+                    <span class="relative flex h-2.5 w-2.5">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
                     </span>
-                    <span>Currently at Comerica Bank</span>
+                    <span>Core M&A Integration Team — Comerica Bank</span>
                 </div>
-                <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
-                    Shivangi <span class="text-blue-500">Sharma</span>
+                <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
+                    Shivangi <span class="bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">Sharma</span>
                 </h1>
-                <p class="text-xl md:text-2xl text-slate-400 max-w-2xl leading-relaxed mb-8">
-                    Data Engineer & AI Specialist. Architecting high-performance ETL pipelines and intelligent systems to solve complex data challenges.
+                <p class="text-xl md:text-2xl text-slate-300 max-w-2xl leading-relaxed mb-8">
+                    Data Engineer &amp; M&A Data Integration Analyst. Bridging enterprise data engineering, cloud ETL orchestration, and cross-functional acquisition integration pathways.
                 </p>
                 <div class="flex flex-wrap gap-6 text-slate-400 mb-10 text-sm">
-                    <span class="flex items-center"><i class="fas fa-map-marker-alt text-blue-400 mr-2"></i> Frisco, TX</span>
-                    <span class="flex items-center"><i class="fas fa-phone text-blue-400 mr-2"></i> (540) 915-8945</span>
+                    <span class="flex items-center bg-slate-900/60 px-4 py-2 rounded-full border border-slate-800"><i class="fas fa-map-marker-alt text-blue-400 mr-2.5"></i> Frisco, TX</span>
+                    <span class="flex items-center bg-slate-900/60 px-4 py-2 rounded-full border border-slate-800"><i class="fas fa-phone text-blue-400 mr-2.5"></i> (540) 915-8945</span>
                 </div>
                 <div class="flex flex-wrap gap-4">
-                    <a href="#experience" class="px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg transition-all shadow-lg shadow-blue-600/20">
-                        View My Work
+                    <a href="#experience" class="px-8 py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg transition-all shadow-lg shadow-blue-600/25 text-center">
+                        Explore Work History
                     </a>
-                    <a href="https://docs.google.com/document/d/1l8CXRaMnubFYqnat0VJzPUJrwN1BsuQN/edit?usp=sharing" target="_blank" class="px-8 py-3 bg-slate-800 hover:bg-slate-700 text-white font-semibold rounded-lg transition-all border border-slate-700 inline-flex items-center justify-center">
-                        <i class="fas fa-file-pdf mr-2"></i> Resume
+                    <!-- Updated to use the requested Google Drive link -->
+                    <a href="https://docs.google.com/document/d/1T_kaKeZOZ-z6f0uC5IU-IS5UZFvxPN4k/edit?usp=sharing&ouid=111465744607062240294&rtpof=true&sd=true" target="_blank" class="px-8 py-3.5 bg-slate-800/80 hover:bg-slate-700 text-white font-semibold rounded-lg transition-all border border-slate-700 inline-flex items-center justify-center">
+                        <i class="fas fa-file-invoice mr-2.5 text-blue-400"></i> View Resume
                     </a>
                 </div>
             </div>
@@ -129,13 +132,13 @@
             <!-- Profile Image Container -->
             <div class="relative w-64 h-64 md:w-80 md:h-80 shrink-0">
                 <div class="profile-blob w-full h-full opacity-20 absolute top-0 left-0 blur-2xl"></div>
-                <div class="w-full h-full rounded-full border-2 border-slate-800 p-2 relative z-10">
-                    <div class="w-full h-full rounded-full overflow-hidden bg-slate-900 flex items-center justify-center border border-slate-700">
+                <div class="w-full h-full rounded-full border-2 border-slate-800 p-2.5 relative z-10 bg-slate-950/40">
+                    <div class="w-full h-full rounded-full overflow-hidden bg-slate-900 flex items-center justify-center border border-slate-800">
                         <img 
                             src="https://lh3.googleusercontent.com/d/1vvUgjGqSLJcVmvklaMN-Um3MEeAzP4LS" 
                             alt="Shivangi Sharma" 
-                            class="w-full h-full object-cover"
-                            onerror="this.src='https://ui-avatars.com/api/?name=Shivangi+Sharma&background=0D8ABC&color=fff&size=512'"
+                            class="w-full h-full object-cover transform hover:scale-105 transition duration-500"
+                            onerror="this.src='https://ui-avatars.com/api/?name=Shivangi+Sharma&background=1e293b&color=3b82f6&size=512'"
                         >
                     </div>
                 </div>
@@ -143,28 +146,28 @@
         </div>
     </header>
 
-    <!-- Stats Bar -->
-    <section class="py-16 bg-slate-900/50">
+    <!-- Highlight Section -->
+    <section class="py-16 bg-slate-900/40 border-y border-slate-900">
         <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
-            <div class="flex items-start space-x-4">
-                <div class="p-3 bg-blue-500/10 rounded-xl"><i class="fas fa-database text-blue-400 text-xl"></i></div>
+            <div class="flex items-start space-x-4 p-5 rounded-2xl hover:bg-slate-900/60 transition duration-300">
+                <div class="p-3.5 bg-blue-500/10 rounded-xl border border-blue-500/20"><i class="fas fa-network-wired text-blue-400 text-xl"></i></div>
                 <div>
-                    <h3 class="text-white font-bold">Data Engineering</h3>
-                    <p class="text-slate-400 text-sm">ETL pipelines, Snowflake, AWS, and Informatica IDMC.</p>
+                    <h3 class="text-white font-bold mb-1">M&A Integration Strategy</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Assisting Commercial banking system migration & timeline tracking for the Fifth Third Bank acquisition.</p>
                 </div>
             </div>
-            <div class="flex items-start space-x-4">
-                <div class="p-3 bg-emerald-500/10 rounded-xl"><i class="fas fa-robot text-emerald-400 text-xl"></i></div>
+            <div class="flex items-start space-x-4 p-5 rounded-2xl hover:bg-slate-900/60 transition duration-300">
+                <div class="p-3.5 bg-emerald-500/10 rounded-xl border border-emerald-500/20"><i class="fas fa-database text-emerald-400 text-xl"></i></div>
                 <div>
-                    <h3 class="text-white font-bold">Gen AI & ML</h3>
-                    <p class="text-slate-400 text-sm">Building with Lambda, TensorFlow, and NLP methodologies.</p>
+                    <h3 class="text-white font-bold mb-1">Data Engineering</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Enterprise scale ETL pipelines, Snowflake optimization, AWS ecosystems, and Informatica IDMC architecture.</p>
                 </div>
             </div>
-            <div class="flex items-start space-x-4">
-                <div class="p-3 bg-purple-500/10 rounded-xl"><i class="fas fa-shield-alt text-purple-400 text-xl"></i></div>
+            <div class="flex items-start space-x-4 p-5 rounded-2xl hover:bg-slate-900/60 transition duration-300">
+                <div class="p-3.5 bg-purple-500/10 rounded-xl border border-purple-500/20"><i class="fas fa-tasks text-purple-400 text-xl"></i></div>
                 <div>
-                    <h3 class="text-white font-bold">Compliance</h3>
-                    <p class="text-slate-400 text-sm">Expertise in HIPAA, GLBA, AML, and KYC standards.</p>
+                    <h3 class="text-white font-bold mb-1">Compliance & Quality</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Rigorous governance alignment across strict regulatory requirements including GLBA, HIPAA, AML, & KYC.</p>
                 </div>
             </div>
         </div>
@@ -173,51 +176,111 @@
     <!-- Experience Section -->
     <section id="experience" class="py-24 px-6 section-reveal">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-3xl font-bold text-white mb-12 flex items-center">
-                <i class="fas fa-briefcase text-blue-400 mr-4"></i> Professional Experience
-            </h2>
+            <div class="text-center md:text-left mb-16">
+                <h2 class="text-3xl font-bold text-white mb-4 flex items-center justify-center md:justify-start">
+                    <i class="fas fa-briefcase text-blue-400 mr-4"></i> Professional Experience
+                </h2>
+                <p class="text-slate-400 max-w-xl">5+ years of driving data excellence across complex technical migrations, financial environments, and healthcare infrastructures.</p>
+            </div>
+            
             <div class="space-y-12">
-                <!-- Comerica -->
-                <div class="relative pl-8 border-l border-slate-800">
+                <!-- Comerica - Data Strategy Analyst (Current) -->
+                <div class="relative pl-8 border-l border-emerald-500/30 pb-4">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 bg-emerald-400 rounded-full border-4 border-slate-950 shadow-lg shadow-emerald-500/50"></div>
+                    <div class="flex flex-col md:flex-row md:justify-between mb-2">
+                        <h3 class="text-xl font-bold text-white">Data Strategy Analyst — M&A Data Integration, Commercial Workstream</h3>
+                        <span class="text-emerald-400 font-semibold text-sm md:text-base mt-1 md:mt-0 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20 self-start md:self-center">Feb 2026 - Present</span>
+                    </div>
+                    <p class="text-slate-300 font-medium mb-4">Comerica Bank <span class="text-slate-600 px-2">|</span> via ATC, Frisco, TX</p>
+                    <ul class="space-y-3.5 text-slate-400 text-sm">
+                        <li class="flex items-start">
+                            <i class="fas fa-circle-nodes text-blue-500 text-xs mt-1 mr-3 shrink-0"></i>
+                            <span>Serve on the core data team for the Commercial workstream of Comerica Bank’s acquisition by Fifth Third Bank, facilitating and tracking the migration of commercial banking applications and data to Fifth Third’s technology environment ahead of full systems integration.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-circle-nodes text-blue-500 text-xs mt-1 mr-3 shrink-0"></i>
+                            <span>Coordinate across data engineering, application, and business stakeholder teams to maintain migration timelines, surface blockers, and report status to integration leadership.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-circle-nodes text-blue-500 text-xs mt-1 mr-3 shrink-0"></i>
+                            <span>Maintain centralized tracking of application data-movement progress, highlighting risks in clear updates for stakeholders.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-circle-nodes text-blue-500 text-xs mt-1 mr-3 shrink-0"></i>
+                            <span>Apply hands-on data engineering background (SQL, ETL, data lineage) to spot-check migrated data for accuracy and flag discrepancies ahead of cutover.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Comerica - Data Engineer I -->
+                <div class="relative pl-8 border-l border-slate-800 pb-4">
                     <div class="absolute -left-[9px] top-0 w-4 h-4 bg-blue-500 rounded-full border-4 border-slate-950"></div>
                     <div class="flex flex-col md:flex-row md:justify-between mb-2">
                         <h3 class="text-xl font-bold text-white">Data Engineer I</h3>
-                        <span class="text-blue-400 font-semibold">Oct 2024 - Present</span>
+                        <span class="text-blue-400 font-semibold text-sm md:text-base mt-1 md:mt-0">Oct 2024 - Jan 2026</span>
                     </div>
                     <p class="text-slate-300 font-medium mb-4">Comerica Bank <span class="text-slate-600 px-2">|</span> Frisco, TX</p>
-                    <ul class="space-y-3 text-slate-400 text-sm">
-                        <li class="flex items-start"><i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1 mr-3 shrink-0"></i> Architected end-to-end ETL pipelines (Informatica IDMC) migrating legacy AFS Level III loan data to API-enabled AFSVision platform.</li>
-                        <li class="flex items-start"><i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1 mr-3 shrink-0"></i> Integrated Collibra and Dremio to build a unified data catalog across AWS S3 and Snowflake, increasing refresh speeds by 60%.</li>
-                        <li class="flex items-start"><i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1 mr-3 shrink-0"></i> Led AML & KYC Data Quality Mapping Project, ensuring compliance with GLBA, OFAC, and FINCEN standards.</li>
+                    <ul class="space-y-3.5 text-slate-400 text-sm">
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1.5 mr-3 shrink-0"></i>
+                            <span>Architected end-to-end ETL pipelines (Informatica IDMC, PowerCenter, PowerExchange) migrating legacy AFS Level III loan data to the API-enabled AFSVision platform, reducing data ingestion latency by 35%.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1.5 mr-3 shrink-0"></i>
+                            <span>Engineered Power BI dashboards (DirectQuery via Dremio) for near real-time loan portfolio analytics; integrated Collibra and Dremio into a unified data catalog across AWS S3, DB2, and Snowflake, boosting refresh speeds 60% and cutting Snowflake operational costs.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1.5 mr-3 shrink-0"></i>
+                            <span>Led an AML & KYC data quality mapping project across Informatica and SQL-based pipelines, ensuring complete compliance with GLBA, OFAC, and FinCEN standards.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1.5 mr-3 shrink-0"></i>
+                            <span>Designed data validation frameworks for AFS Level III loan data, cutting data quality issues by 20% across 50+ ETL pipelines while supporting CDE lineage tracking and AWS cloud transformation.</span>
+                        </li>
                     </ul>
                 </div>
 
                 <!-- IU -->
-                <div class="relative pl-8 border-l border-slate-800">
+                <div class="relative pl-8 border-l border-slate-800 pb-4">
                     <div class="absolute -left-[9px] top-0 w-4 h-4 bg-slate-700 rounded-full border-4 border-slate-950"></div>
                     <div class="flex flex-col md:flex-row md:justify-between mb-2">
                         <h3 class="text-xl font-bold text-white">Assistant Instructor</h3>
-                        <span class="text-blue-400 font-semibold">Aug 2022 - May 2024</span>
+                        <span class="text-blue-400 font-semibold text-sm md:text-base mt-1 md:mt-0">Aug 2022 - May 2024</span>
                     </div>
                     <p class="text-slate-300 font-medium mb-4">Indiana University <span class="text-slate-600 px-2">|</span> Bloomington, IN</p>
-                    <ul class="space-y-3 text-slate-400 text-sm">
-                        <li class="flex items-start"><i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1 mr-3 shrink-0"></i> Taught AI methodologies and foundational algorithms to 200+ graduate students.</li>
-                        <li class="flex items-start"><i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1 mr-3 shrink-0"></i> Mentored students in building AI-driven applications using TensorFlow and scikit-learn.</li>
+                    <ul class="space-y-3.5 text-slate-400 text-sm">
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1.5 mr-3 shrink-0"></i>
+                            <span>Designed hands-on programming labs for Introduction to Artificial Intelligence and Computers, teaching 200+ graduate and undergraduate students foundational algorithms, data structures, and AI concepts using Python and Java.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1.5 mr-3 shrink-0"></i>
+                            <span>Led weekly lab sessions and open houses, providing individualized code reviews and algorithm mentoring on practical AI applications including TensorFlow and scikit-learn.</span>
+                        </li>
                     </ul>
                 </div>
 
                 <!-- Optum -->
-                <div class="relative pl-8 border-l border-slate-800">
+                <div class="relative pl-8 border-l border-slate-800 pb-4">
                     <div class="absolute -left-[9px] top-0 w-4 h-4 bg-slate-700 rounded-full border-4 border-slate-950"></div>
                     <div class="flex flex-col md:flex-row md:justify-between mb-2">
                         <h3 class="text-xl font-bold text-white">Software Development Engineer</h3>
-                        <span class="text-blue-400 font-semibold">Jul 2020 - Aug 2022</span>
+                        <span class="text-blue-400 font-semibold text-sm md:text-base mt-1 md:mt-0">Jul 2020 - Aug 2022</span>
                     </div>
                     <p class="text-slate-300 font-medium mb-4">Optum (United Health Group) <span class="text-slate-600 px-2">|</span> Gurgaon, India</p>
-                    <ul class="space-y-3 text-slate-400 text-sm">
-                        <li class="flex items-start"><i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1 mr-3 shrink-0"></i> Modernized Optum Medicaid Management System (OMMS) as SME for feature redesign and Azure CI/CD integration.</li>
-                        <li class="flex items-start"><i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1 mr-3 shrink-0"></i> Designed Python and Robot Framework automation processing 500K+ monthly claims, reducing QA time by 80%.</li>
-                        <li class="flex items-start"><i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1 mr-3 shrink-0"></i> Ensured CMS and HIPAA compliance by designing complex SQL ETL validation queries.</li>
+                    <ul class="space-y-3.5 text-slate-400 text-sm">
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1.5 mr-3 shrink-0"></i>
+                            <span>Led end-to-end Optum Medicaid Management System (OMMS) modernization as SME for feature redesign and multi-state deployment, executing migration to Azure via CI/CD pipelines.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1.5 mr-3 shrink-0"></i>
+                            <span>Built Python and Robot Framework automation processing 500K+ monthly Medicaid claims, cutting manual QA testing time by 80% and improving claim adjudication speed across 5 state programs.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1.5 mr-3 shrink-0"></i>
+                            <span>Ensured CMS and HIPAA compliance through complex SQL/NoSQL QA and ETL validation testing across production and non-production environments.</span>
+                        </li>
                     </ul>
                 </div>
 
@@ -226,12 +289,18 @@
                     <div class="absolute -left-[9px] top-0 w-4 h-4 bg-slate-700 rounded-full border-4 border-slate-950"></div>
                     <div class="flex flex-col md:flex-row md:justify-between mb-2">
                         <h3 class="text-xl font-bold text-white">Technical Intern</h3>
-                        <span class="text-blue-400 font-semibold">May 2019 - Dec 2019</span>
+                        <span class="text-blue-400 font-semibold text-sm md:text-base mt-1 md:mt-0">May 2019 - Dec 2019</span>
                     </div>
                     <p class="text-slate-300 font-medium mb-4">Stratbeans Learning Solutions <span class="text-slate-600 px-2">|</span> Gurgaon, India</p>
-                    <ul class="space-y-3 text-slate-400 text-sm">
-                        <li class="flex items-start"><i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1 mr-3 shrink-0"></i> Supported full SDLC and CI/CD deployment of custom LMS platforms for enterprise clients like TATA and HDFC.</li>
-                        <li class="flex items-start"><i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1 mr-3 shrink-0"></i> Managed Git-based version control workflows and developed back-end integrations.</li>
+                    <ul class="space-y-3.5 text-slate-400 text-sm">
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1.5 mr-3 shrink-0"></i>
+                            <span>Supported full SDLC and CI/CD deployment of 5+ custom LMS platforms for enterprise clients such as TATA, Lenovo, and HDFC.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 text-[10px] mt-1.5 mr-3 shrink-0"></i>
+                            <span>Managed Git-based version control workflows and developed robust back-end integration services.</span>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -241,36 +310,63 @@
     <!-- Projects Grid -->
     <section id="projects" class="py-24 px-6 bg-slate-900/20 section-reveal">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-3xl font-bold text-white mb-12 flex items-center">
-                <i class="fas fa-code-branch text-blue-400 mr-4"></i> Featured Projects
-            </h2>
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-white mb-4 flex items-center justify-center">
+                    <i class="fas fa-code-branch text-blue-400 mr-4"></i> Selected Initiatives & Projects
+                </h2>
+                <p class="text-slate-400 max-w-xl mx-auto">Practical systems, predictive models, and pipeline optimizations designed to demonstrate engineering agility and quantitative analysis.</p>
+            </div>
+            
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <!-- Project 1 -->
-                <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/30 transition-all">
-                    <div class="flex justify-between mb-6">
-                        <i class="fas fa-sign-language text-3xl text-blue-400"></i>
-                        <span class="text-xs text-slate-500 font-bold uppercase">NLP / ML</span>
+                <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/30 transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between mb-6 items-center">
+                            <div class="p-3 bg-blue-500/10 rounded-xl text-blue-400">
+                                <i class="fas fa-sign-language text-2xl"></i>
+                            </div>
+                            <span class="text-xs text-slate-500 font-bold uppercase tracking-wider bg-slate-800/40 px-3 py-1 rounded-full">NLP / Deep Learning</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">Sign Language Translator</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">Trilingual deep learning translation system translating ASL, German, and Indian sign gestures in real-time utilizing computer vision and MediaPipe.</p>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3">Sign Language Translator</h3>
-                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">Trilingual deep learning model translating ASL, German, and Indian sign gestures using MediaPipe.</p>
+                    <div class="flex items-center space-x-2 text-xs text-slate-500 font-semibold uppercase">
+                        <span>Python</span> <span class="text-slate-700">•</span> <span>MediaPipe</span> <span class="text-slate-700">•</span> <span>TensorFlow</span>
+                    </div>
                 </div>
+                
                 <!-- Project 2 -->
-                <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/30 transition-all">
-                    <div class="flex justify-between mb-6">
-                        <i class="fas fa-file-medical-alt text-3xl text-emerald-400"></i>
-                        <span class="text-xs text-slate-500 font-bold uppercase">Health Tech</span>
+                <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/30 transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between mb-6 items-center">
+                            <div class="p-3 bg-emerald-500/10 rounded-xl text-emerald-400">
+                                <i class="fas fa-file-medical-alt text-2xl"></i>
+                            </div>
+                            <span class="text-xs text-slate-500 font-bold uppercase tracking-wider bg-slate-800/40 px-3 py-1 rounded-full">Health Tech</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-emerald-400 transition-colors">COVID-19 X-Ray Predictor</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">Automated clinical support diagnostics system utilizing highly optimized CNN architectural models to identify pneumonia and pathologies from digital medical imaging.</p>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3">COVID-19 X-Ray Predictor</h3>
-                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">Automated diagnostics system utilizing CNN models to identify pneumonia from imaging.</p>
+                    <div class="flex items-center space-x-2 text-xs text-slate-500 font-semibold uppercase">
+                        <span>PyTorch</span> <span class="text-slate-700">•</span> <span>Scikit-Learn</span> <span class="text-slate-700">•</span> <span>CNN</span>
+                    </div>
                 </div>
+                
                 <!-- Project 3 -->
-                <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/30 transition-all">
-                    <div class="flex justify-between mb-6">
-                        <i class="fas fa-bolt text-3xl text-purple-400"></i>
-                        <span class="text-xs text-slate-500 font-bold uppercase">Performance</span>
+                <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/30 transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between mb-6 items-center">
+                            <div class="p-3 bg-purple-500/10 rounded-xl text-purple-400">
+                                <i class="fas fa-bolt text-2xl"></i>
+                            </div>
+                            <span class="text-xs text-slate-500 font-bold uppercase tracking-wider bg-slate-800/40 px-3 py-1 rounded-full">Performance</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 group-hover:text-purple-400 transition-colors">NextJS Edge Optimization</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">Optimized highly transactional serverless database operations with Vercel Edge Runtime, accelerating global data distribution and query times by 40%.</p>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3">NextJS Edge Optimization</h3>
-                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">Optimizing serverless functions via Vercel Edge Runtime for high-performance apps.</p>
+                    <div class="flex items-center space-x-2 text-xs text-slate-500 font-semibold uppercase">
+                        <span>TypeScript</span> <span class="text-slate-700">•</span> <span>Edge Computing</span> <span class="text-slate-700">•</span> <span>AWS Lambda</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -279,56 +375,97 @@
     <!-- Skills Section -->
     <section id="skills" class="py-24 px-6 section-reveal">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-3xl font-bold text-white mb-12 text-center">Technical Stack</h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
-                <!-- Data & Cloud -->
-                <div class="space-y-4">
-                    <h4 class="text-xs font-bold text-blue-500 uppercase tracking-widest">Data & Cloud</h4>
-                    <div class="flex flex-col gap-2">
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">AWS</span>
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">Snowflake</span>
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">MongoDB</span>
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">IBM DB2</span>
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-white mb-4">Technical Expertise Matrix</h2>
+                <p class="text-slate-400 max-w-xl mx-auto">A multi-disciplinary stack combining M&A project coordination, cloud ecosystems, modern ETL frameworks, and strictly regulated industry standards.</p>
+            </div>
+
+            <!-- Skills Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Group 1: M&A & Strategy -->
+                <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800/80">
+                    <h4 class="text-xs font-bold text-emerald-400 uppercase tracking-widest mb-4 flex items-center">
+                        <i class="fas fa-shuffle mr-2 text-emerald-400"></i> M&A & Program Coordination
+                    </h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Cross-Functional Facilitation</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Migration Timeline Tracking</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Risk Assessment & Mitigation</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Status Reporting</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Stakeholder Communication</span>
                     </div>
                 </div>
-                <!-- Engineering -->
-                <div class="space-y-4">
-                    <h4 class="text-xs font-bold text-blue-500 uppercase tracking-widest">Engineering</h4>
-                    <div class="flex flex-col gap-2">
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">Python</span>
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">SQL</span>
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">ETL</span>
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">Java</span>
+
+                <!-- Group 2: Cloud & Architecture -->
+                <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800/80">
+                    <h4 class="text-xs font-bold text-blue-400 uppercase tracking-widest mb-4 flex items-center">
+                        <i class="fas fa-cloud mr-2 text-blue-400"></i> Cloud & Data Architecture
+                    </h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">AWS</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Azure</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Snowflake</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Informatica IDMC</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Collibra</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Dremio</span>
                     </div>
                 </div>
-                <!-- AI/ML -->
-                <div class="space-y-4">
-                    <h4 class="text-xs font-bold text-blue-500 uppercase tracking-widest">AI/ML</h4>
-                    <div class="flex flex-col gap-2">
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">Gen AI</span>
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">NLP</span>
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">TensorFlow</span>
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">PyTorch</span>
+
+                <!-- Group 3: Programming -->
+                <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800/80">
+                    <h4 class="text-xs font-bold text-blue-400 uppercase tracking-widest mb-4 flex items-center">
+                        <i class="fas fa-code mr-2 text-blue-400"></i> Programming
+                    </h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Python (TensorFlow, scikit-learn)</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">SQL</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Java</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">JavaScript</span>
                     </div>
                 </div>
-                <!-- DevOps -->
-                <div class="space-y-4">
-                    <h4 class="text-xs font-bold text-blue-500 uppercase tracking-widest">DevOps</h4>
-                    <div class="flex flex-col gap-2">
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">Azure DevOps</span>
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">JIRA</span>
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">Git</span>
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">CI/CD</span>
+
+                <!-- Group 4: Data Engineering & BI -->
+                <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800/80">
+                    <h4 class="text-xs font-bold text-indigo-400 uppercase tracking-widest mb-4 flex items-center">
+                        <i class="fas fa-gears mr-2 text-indigo-400"></i> Data Engineering &amp; BI
+                    </h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">ETL/ELT Pipeline Design</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">PowerCenter / PowerExchange</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Data Warehousing</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Power BI</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Real-Time Analytics</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Schema Design</span>
                     </div>
                 </div>
-                <!-- Tools -->
-                <div class="space-y-4">
-                    <h4 class="text-xs font-bold text-blue-500 uppercase tracking-widest">Tools</h4>
-                    <div class="flex flex-col gap-2">
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">Informatica</span>
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">Power BI</span>
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">Collibra</span>
-                        <span class="skill-tag text-sm text-slate-400 bg-slate-900/50 p-2 rounded">Salesforce</span>
+
+                <!-- Group 5: DevOps, Databases & Testing -->
+                <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800/80">
+                    <h4 class="text-xs font-bold text-indigo-400 uppercase tracking-widest mb-4 flex items-center">
+                        <i class="fas fa-toolbox mr-2 text-indigo-400"></i> Databases &amp; Testing
+                    </h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">MongoDB</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Mainframe DB2 (z/OS)</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Oracle</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Robot Framework</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Azure DevOps</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Git</span>
+                    </div>
+                </div>
+
+                <!-- Group 6: Compliance -->
+                <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800/80">
+                    <h4 class="text-xs font-bold text-purple-400 uppercase tracking-widest mb-4 flex items-center">
+                        <i class="fas fa-shield-halved mr-2 text-purple-400"></i> Compliance &amp; Lineage
+                    </h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">GLBA</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">HIPAA</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">CMS Standards</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">AML &amp; KYC</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">Data Lineage Tracking</span>
+                        <span class="skill-tag text-xs text-slate-300 bg-slate-900 px-3 py-2 rounded border border-slate-800/60">EDI Standards</span>
                     </div>
                 </div>
             </div>
@@ -338,62 +475,110 @@
     <!-- Education Section -->
     <section id="education" class="py-24 px-6 bg-slate-950 section-reveal">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-3xl font-bold text-white mb-12 flex items-center">
-                <i class="fas fa-graduation-cap text-blue-400 mr-4"></i> Education & Certs
+            <h2 class="text-3xl font-bold text-white mb-12 flex items-center justify-center md:justify-start">
+                <i class="fas fa-graduation-cap text-blue-400 mr-4"></i> Education &amp; Certifications
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div class="space-y-8">
-                    <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800">
-                        <h3 class="font-bold text-white text-lg">MS in Computer Science</h3>
-                        <p class="text-blue-400">Indiana University, Bloomington</p>
+                    <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800/80 shadow-sm relative overflow-hidden group">
+                        <div class="absolute left-0 top-0 h-full w-1 bg-blue-500"></div>
+                        <span class="text-xs font-bold text-blue-400 uppercase tracking-widest block mb-2">Graduated May 2024</span>
+                        <h3 class="font-bold text-white text-lg group-hover:text-blue-300 transition-colors">Master of Science, Computer Science</h3>
+                        <p class="text-slate-400 text-sm mt-1">Indiana University, Bloomington (Luddy School)</p>
+                        
                     </div>
-                    <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800">
-                        <h3 class="font-bold text-white text-lg">B.Tech in CS & Engineering</h3>
-                        <p class="text-blue-400">The NorthCap University, India</p>
+                    <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800/80 shadow-sm relative overflow-hidden group">
+                        <div class="absolute left-0 top-0 h-full w-1 bg-emerald-500"></div>
+                        <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest block mb-2">Graduated June 2020</span>
+                        <h3 class="font-bold text-white text-lg group-hover:text-emerald-300 transition-colors">B.Tech, CS &amp; Engineering</h3>
+                        <p class="text-slate-400 text-sm mt-1">The NorthCap University, India</p>
+                        
                     </div>
                 </div>
-                <div class="space-y-2">
-                    <h4 class="text-slate-300 font-bold mb-4 uppercase tracking-widest text-xs">Certifications</h4>
-                    <div class="flex items-center p-3 rounded-lg bg-slate-900 border border-slate-800 text-sm">
-                        <i class="fas fa-certificate text-emerald-400 mr-3"></i> Product Management (Maryland)
-                    </div>
-                    <div class="flex items-center p-3 rounded-lg bg-slate-900 border border-slate-800 text-sm">
-                        <i class="fas fa-certificate text-emerald-400 mr-3"></i> Data Science Fundamentals (Udemy)
-                    </div>
-                    <div class="flex items-center p-3 rounded-lg bg-slate-900 border border-slate-800 text-sm">
-                        <i class="fas fa-certificate text-emerald-400 mr-3"></i> Relational Databases (Coursera)
-                    </div>
-                    <div class="flex items-center p-3 rounded-lg bg-slate-900 border border-slate-800 text-sm">
-                        <i class="fas fa-certificate text-emerald-400 mr-3"></i> Data Structures (Crux)
+                <div>
+                    <h4 class="text-slate-300 font-bold mb-4 uppercase tracking-widest text-xs">Professional Credentials</h4>
+                    <div class="space-y-2.5">
+                        <div class="flex items-center p-3.5 rounded-xl bg-slate-900 border border-slate-800/80 text-sm transition-transform hover:-translate-x-1 duration-200">
+                            <i class="fas fa-award text-emerald-400 mr-3 text-lg"></i>
+                            <div>
+                                <p class="text-white font-medium">Product Management</p>
+                                <p class="text-xs text-slate-500">University of Maryland</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center p-3.5 rounded-xl bg-slate-900 border border-slate-800/80 text-sm transition-transform hover:-translate-x-1 duration-200">
+                            <i class="fas fa-award text-emerald-400 mr-3 text-lg"></i>
+                            <div>
+                                <p class="text-white font-medium">Data Science Fundamentals</p>
+                                <p class="text-xs text-slate-500">Udemy Professional Certificate</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center p-3.5 rounded-xl bg-slate-900 border border-slate-800/80 text-sm transition-transform hover:-translate-x-1 duration-200">
+                            <i class="fas fa-award text-emerald-400 mr-3 text-lg"></i>
+                            <div>
+                                <p class="text-white font-medium">Relational Databases in SQL</p>
+                                <p class="text-xs text-slate-500">Coursera Certification</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center p-3.5 rounded-xl bg-slate-900 border border-slate-800/80 text-sm transition-transform hover:-translate-x-1 duration-200">
+                            <i class="fas fa-award text-emerald-400 mr-3 text-lg"></i>
+                            <div>
+                                <p class="text-white font-medium">Data Structures (Crux)</p>
+                                <p class="text-xs text-slate-500">Advanced Algorithms Training</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="py-12 border-t border-slate-900 text-center text-slate-500 text-xs">
-        <p>© 2026 Shivangi Sharma. All Rights Reserved.</p>
+
+    <!-- Footer Section -->
+    <footer class="py-16 border-t border-slate-900/60 bg-slate-950/80 text-center relative">
+        <div class="max-w-6xl mx-auto px-6">
+            <h3 class="text-xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent mb-4">Let's Connect</h3>
+            <p class="text-slate-400 text-sm max-w-md mx-auto mb-8">Looking to discuss M&A integration pathways, cloud-based ETL pipelines, regulatory compliance frameworks, or prospective technical collaborations.</p>
+            
+            <div class="flex justify-center space-x-6 mb-10">
+                <a href="mailto:shivangi997sharma@gmail.com" class="w-12 h-12 rounded-full bg-slate-900 hover:bg-blue-500 hover:text-white border border-slate-800 flex items-center justify-center transition-all duration-300 group" title="Email me">
+                    <i class="fas fa-envelope text-lg group-hover:scale-110 transition duration-200 text-slate-400 group-hover:text-white"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/newss11" target="_blank" class="w-12 h-12 rounded-full bg-slate-900 hover:bg-blue-600 hover:text-white border border-slate-800 flex items-center justify-center transition-all duration-300 group" title="Connect on LinkedIn">
+                    <i class="fab fa-linkedin-in text-lg group-hover:scale-110 transition duration-200 text-slate-400 group-hover:text-white"></i>
+                </a>
+                <a href="https://docs.google.com/document/d/1T_kaKeZOZ-z6f0uC5IU-IS5UZFvxPN4k/edit?usp=sharing&ouid=111465744607062240294&rtpof=true&sd=true" target="_blank" class="w-12 h-12 rounded-full bg-slate-900 hover:bg-emerald-500 hover:text-white border border-slate-800 flex items-center justify-center transition-all duration-300 group" title="View CV Doc">
+                    <i class="fas fa-file-invoice text-lg group-hover:scale-110 transition duration-200 text-slate-400 group-hover:text-white"></i>
+                </a>
+            </div>
+            
+            <p class="text-slate-600 text-xs font-medium">© 2026 Shivangi Sharma. All Rights Reserved.</p>
+        </div>
     </footer>
 
+    <!-- Scripts -->
     <script>
+        // Transparent to solid navigation on scroll
         window.addEventListener('scroll', () => {
             const nav = document.getElementById('navbar');
             if (window.scrollY > 50) {
-                nav.classList.add('glass-nav', 'py-4', 'border-b', 'border-slate-800');
+                nav.classList.add('glass-nav', 'py-4', 'border-b', 'border-slate-800/80', 'shadow-lg');
                 nav.classList.remove('py-6');
             } else {
-                nav.classList.remove('glass-nav', 'py-4', 'border-b', 'border-slate-800');
+                nav.classList.remove('glass-nav', 'py-4', 'border-b', 'border-slate-800/80', 'shadow-lg');
                 nav.classList.add('py-6');
             }
         });
 
+        // Intersection Observer for scroll-reveal animations
         const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => entry.isIntersecting && entry.target.classList.add('active'));
-        }, { threshold: 0.15 });
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
 
         document.querySelectorAll('.section-reveal').forEach(section => observer.observe(section));
     </script>
 </body>
 </html>
-
-
